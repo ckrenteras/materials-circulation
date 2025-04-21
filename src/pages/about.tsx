@@ -5,7 +5,7 @@ export default function AboutPage() {
       <p className="text-lg leading-relaxed">
         The Materials Circulation Station is part of our design studio’s mission to reduce waste
         and make resources accessible to all. By logging materials you donate or check out,
-        you help us track usage, reduce duplication, and promote sustainability in the workshop.
+        you help us track usage, save resources, and promote sustainability in the BDW.
       </p>
     </div>
   );
