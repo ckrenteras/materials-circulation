@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="icon" href="/bdwlogo.png" />
+        <link rel="icon" href="/favicon.ico" />
         <title>Materials Station</title>
       </Head>
       <body className="antialiased">
