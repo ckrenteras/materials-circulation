@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <title>Materials Station</title>
+        <title>Material Circulation</title>
       </Head>
       <body className="antialiased">
         <Main />
