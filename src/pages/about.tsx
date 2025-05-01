@@ -7,6 +7,11 @@ export default function AboutPage() {
         and make resources accessible to all. By logging materials you donate or check out,
         you help us track usage, save resources, and promote sustainability in the BDW.
       </p>
+      <Link href="/" className="block mt-6">
+      <button className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">
+        ← Back
+      </button>
+    </Link>
     </div>
   );
 }

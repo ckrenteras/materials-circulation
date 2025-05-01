@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function LogPage() {
   const [form, setForm] = useState({
@@ -24,6 +25,7 @@ export default function LogPage() {
 
     if (res.ok) {
       setSubmitted(true);
+      window.location.reload();
       setForm({ name: '', action: 'donated', material: '', quantity: '' });
     }
   };
@@ -63,7 +65,7 @@ export default function LogPage() {
         <input
           type="text"
           name="quantity"
-          placeholder="Quantity (e.g. 3 meters, 5 sheets)"
+          placeholder="Quantity (e.g. 3x3 meters, 5 sheets)"
           value={form.quantity}
           onChange={handleChange}
           required
@@ -76,6 +78,11 @@ export default function LogPage() {
           Submit
         </button>
       </form>
+      <Link href="/" className="block mt-6">
+      <button className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">
+        ← Back
+      </button>
+    </Link>
     </div>
   );
 }
