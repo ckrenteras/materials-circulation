@@ -79,7 +79,7 @@ export default function LogPage() {
         </button>
       </form>
       <Link href="/" className="block mt-6">
-      <button className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">
+      <button className="px-4 py-2 bg-black-200 rounded hover:bg-black-300">
         ← Back
       </button>
     </Link>
