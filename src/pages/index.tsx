@@ -1,18 +1,42 @@
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center p-8">
-      <h1 className="text-4xl font-bold mb-6">Welcome to Material Circulation @ the BDW</h1>
-      <p className="text-lg mb-10">Track and share your design studio materials here.</p>
-      <div className="flex gap-4">
-        <Link href="/log" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-          Log Materials
-        </Link>
-        <Link href="/about" className="bg-green-600 px-4 py-2 rounded hover:bg-green-700">
-          About
-        </Link>
-      </div>
+    <main className="min-h-screen flex flex-col items-center justify-center px-6 text-center">
+      <motion.div
+        className="relative mb-6"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
+        <p className="text-lg absolute left-[-5rem] top-[-2.5rem]">Welcome to</p>
+        <h1 className="text-6xl font-bold">Materials Circulation</h1>
+        <p className="text-lg absolute right-[-4rem] top-[3.5rem]">@ the BDW</p>
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1, duration: 1 }}
+      >
+        <p className="text-base text-gray-700 mb-8">
+          Track and share your design workshop materials here.
+        </p>
+
+        <div className="flex gap-4 justify-center">
+          <Link href="/log">
+            <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+              Log Materials
+            </button>
+          </Link>
+          <Link href="/about">
+            <button className="bg-gray-200 px-4 py-2 rounded hover:bg-gray-300">
+              About
+            </button>
+          </Link>
+        </div>
+      </motion.div>
     </main>
   );
 }
