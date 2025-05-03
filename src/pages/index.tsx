@@ -26,12 +26,12 @@ export default function Home() {
 
         <div className="flex gap-4 justify-center">
           <Link href="/log">
-            <button className="bg-black-200 text-white px-4 py-2 rounded hover:bg-black-300">
+            <button className="px-4 py-2 border border-white bg-black-200 text-white px-4 py-2 rounded hover:bg-black-300">
               Log Materials
             </button>
           </Link>
           <Link href="/about">
-            <button className="bg-black-200 px-4 py-2 rounded hover:bg-black-300">
+            <button className="px-4 py-2 border border-white bg-black-200 px-4 py-2 rounded hover:bg-black-300">
               About
             </button>
           </Link>
