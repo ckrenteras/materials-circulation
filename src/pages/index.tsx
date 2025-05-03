@@ -20,7 +20,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 1 }}
       >
-        <p className="text-base text-gray-200 mb-8">
+        <p className="font-arial text-base text-gray-200 mb-8">
           Log material donations/check outs here :)
         </p>
 

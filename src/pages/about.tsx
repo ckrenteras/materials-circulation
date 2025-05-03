@@ -3,8 +3,8 @@ import Link from 'next/link';
 export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto p-6">
-      <h1 className="font-georgia text-3xl font-bold mb-4">About Material Circulation</h1>
-      <p className="text-lg leading-relaxed">
+      <h1 className="font-georgia text-4xl font-bold mb-4">About</h1>
+      <p className="font-arial text-lg leading-relaxed">
         The Material Circulation Station is part of our design studio’s mission to reduce waste
         and make resources accessible to all. This website is a part of a larger goal to understand
         the flow of materials throughout the BDW, supplying critical data on which resources users 
