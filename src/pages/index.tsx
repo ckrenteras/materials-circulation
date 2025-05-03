@@ -10,9 +10,9 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <p className="text-lg absolute left-[-1rem] top-[-2.5rem]">Welcome to</p>
-        <h1 className="text-6xl font-bold">Materials Circulation</h1>
-        <p className="text-lg top-[3.5rem]">@ the BDW</p>
+        <p className="font-georgia text-lg absolute left-[-0.5rem] top-[-2.5rem] font-bold">Welcome to</p>
+        <h1 className="font-georgia text-6xl font-bold">Materials Circulation</h1>
+        <p className="font-georgia text-lg top-[3.5rem] font-bold">@ the BDW</p>
       </motion.div>
 
       <motion.div
@@ -26,12 +26,12 @@ export default function Home() {
 
         <div className="flex gap-4 justify-center">
           <Link href="/log">
-            <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+            <button className="bg-black-200 text-white px-4 py-2 rounded hover:bg-black-300">
               Log Materials
             </button>
           </Link>
           <Link href="/about">
-            <button className="bg-gray-400 px-4 py-2 rounded hover:bg-gray-500">
+            <button className="bg-black-200 px-4 py-2 rounded hover:bg-black-300">
               About
             </button>
           </Link>

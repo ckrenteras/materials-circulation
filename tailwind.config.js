@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ['./src/**/*.{js,ts,jsx,tsx}',
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {fontFamily: {
+        georgia: ['"Merriweather"', 'serif'],
+        arial: ['Arial', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
