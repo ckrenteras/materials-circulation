@@ -10,7 +10,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <p className="text-lg absolute left-[-3rem] top-[-2.5rem]">Welcome to</p>
+        <p className="text-lg absolute left-[-1rem] top-[-2.5rem]">Welcome to</p>
         <h1 className="text-6xl font-bold">Materials Circulation</h1>
         <p className="text-lg top-[3.5rem]">@ the BDW</p>
       </motion.div>
