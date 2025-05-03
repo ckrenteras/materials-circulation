@@ -10,9 +10,9 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <p className="text-lg absolute left-[-5.5rem] top-[-2.5rem]">Welcome to</p>
+        <p className="text-lg absolute left-[-8rem] top-[-2.5rem]">Welcome to</p>
         <h1 className="text-6xl font-bold">Materials Circulation</h1>
-        <p className="text-lg absolute right-[-4.5rem] top-[3.5rem]">@ the BDW</p>
+        <p className="text-lg absolute right-[-8rem] top-[3.5rem]">@ the BDW</p>
       </motion.div>
 
       <motion.div
@@ -20,7 +20,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 1 }}
       >
-        <p className="text-base text-gray-900 mb-8">
+        <p className="text-base text-gray-200 mb-8">
           Track and share your workshop materials here.
         </p>
 
