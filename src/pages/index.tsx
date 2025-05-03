@@ -11,7 +11,7 @@ export default function Home() {
         transition={{ duration: 1 }}
       >
         <p className="font-georgia text-lg absolute left-[-0.5rem] top-[-2.5rem] font-bold">Welcome to</p>
-        <h1 className="font-georgia text-6xl font-bold">Materials Circulation</h1>
+        <h1 className="font-georgia text-6xl font-bold">Material Circulation</h1>
         <p className="font-georgia text-lg top-[3.5rem] font-bold italic">@ the BDW</p>
       </motion.div>
 
