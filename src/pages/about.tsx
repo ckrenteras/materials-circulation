@@ -6,7 +6,9 @@ export default function AboutPage() {
       <h1 className="text-3xl font-bold mb-4">About Material Circulation</h1>
       <p className="text-lg leading-relaxed">
         The Material Circulation Station is part of our design studio’s mission to reduce waste
-        and make resources accessible to all. By logging materials you donate or check out,
+        and make resources accessible to all. This website is a part of a larger goal to understand
+        the flow of materials throughout the BDW, supplying critical data on which resources users 
+        of the space most commonly use and discard. By logging materials you donate or check out,
         you help us track usage, save resources, and promote sustainability in the BDW.
       </p>
       <Link href="/" className="block mt-6">
