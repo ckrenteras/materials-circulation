@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function LogPage() {
   return (
     <div className="max-w-5xl mx-auto p-6 flex flex-col items-center">
-      <h1 className="font-georgia text-3xl font-bold mb-6 text-center">Log Materials</h1>
+      <h1 className="font-georgia text-4xl font-bold mb-6 text-center">Log Materials</h1>
 
       <div className="w-full max-w-4xl scale-[0.95] mb-8">
         <iframe
