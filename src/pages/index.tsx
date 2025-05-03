@@ -12,7 +12,7 @@ export default function Home() {
       >
         <p className="text-lg absolute left-[-3rem] top-[-2.5rem]">Welcome to</p>
         <h1 className="text-6xl font-bold">Materials Circulation</h1>
-        <p className="text-lg absolute right-[-1rem] top-[3.5rem]">@ the BDW</p>
+        <p className="text-lg top-[3.5rem]">@ the BDW</p>
       </motion.div>
 
       <motion.div
