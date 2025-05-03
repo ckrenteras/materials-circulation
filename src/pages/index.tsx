@@ -21,7 +21,7 @@ export default function Home() {
         transition={{ delay: 1, duration: 1 }}
       >
         <p className="text-base text-gray-200 mb-8">
-          Track and share your workshop materials here.
+          Track and share your workshop materials here :)
         </p>
 
         <div className="flex gap-4 justify-center">
