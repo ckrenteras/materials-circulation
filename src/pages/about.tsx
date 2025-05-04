@@ -25,9 +25,9 @@ export default function AboutPage() {
         <p className="font-arial text-lg leading-relaxed mb-6">
           Material Circulation is a part of the BDW’s mission to reduce waste and make the space 
           accessible to all. This website is, specifically, aimed at increasing visibility of user
-          consumption and helping understand the flow of materials through the BDW. By logging 
-          resources taken in and taken out of Materials Circulation, you help us track usage, save 
-          resources, and promote sustainability.
+          consumption and helping us understand the flow of materials through the workshop. By 
+          logging resources taken in and taken out of Materials Circulation, you help us track usage, 
+          save resources, and promote sustainability.
         </p>
         <Link
           href="/"
