@@ -20,11 +20,13 @@ export default function LogPage() {
         </iframe>
       </div>
 
-      <Link href="/">
-        <button className="px-4 py-2 border border-white text-white bg-black rounded hover:bg-neutral-900">
-          ← Back
-        </button>
-      </Link>
+      <Link
+  href="/"
+  className="inline-block border border-white text-white px-4 py-2 rounded transition transform hover:scale-105 hover:bg-white hover:text-black"
+>
+  ← Back
+</Link>
+
     </div>
   );
 }

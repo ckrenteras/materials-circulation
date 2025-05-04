@@ -25,17 +25,18 @@ export default function Home() {
         </p>
 
         <div className="flex gap-4 justify-center">
-          <Link href="/log">
-            <button className="px-4 py-2 border border-white bg-black-200 text-white px-4 py-2 rounded hover:bg-black-300">
-              Log Materials
-            </button>
-          </Link>
-          <Link href="/about">
-            <button className="px-4 py-2 border border-white bg-black-200 px-4 py-2 rounded hover:bg-black-300">
-              About
-            </button>
-          </Link>
-        </div>
+  <Link href="/log">
+    <button className="px-4 py-2 border border-white text-white rounded transition transform hover:scale-105 hover:bg-white hover:text-black">
+      Log Materials
+    </button>
+  </Link>
+  <Link href="/about">
+    <button className="px-4 py-2 border border-white text-white rounded transition transform hover:scale-105 hover:bg-white hover:text-black">
+      About
+    </button>
+  </Link>
+</div>
+
       </motion.div>
     </main>
   );

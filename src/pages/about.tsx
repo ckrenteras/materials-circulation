@@ -29,9 +29,13 @@ export default function AboutPage() {
           of the space most commonly use and discard. By logging materials you donate or check out,
           you help us track usage, save resources, and promote sustainability in the BDW.
         </p>
-        <Link href="/" className="inline-block border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-black">
+        <Link
+          href="/"
+          className="inline-block border border-white text-white px-4 py-2 rounded transition transform hover:scale-105 hover:bg-white hover:text-black"
+          >
           ← Back
         </Link>
+
       </motion.div>
     </>
   );
